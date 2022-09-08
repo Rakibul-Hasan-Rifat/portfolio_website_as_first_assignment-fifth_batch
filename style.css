@@ -1,0 +1,327 @@
+/* 
+font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive; 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body style from here */
+body {
+    max-width: 100%;
+}
+
+/* First, second, third and fourth section's common styles */
+#first_sec_text_part h1,
+#third_sec_text_part h1,
+#fourth_sec_text_part h1,
+#sixth_sec_text_part h1,
+#first_sec_text_part p,
+#third_sec_text_part p,
+#fourth_sec_text_part p,
+#sixth_sec_text_part p {
+    margin-bottom: 20px;
+}
+
+#first_sec_text_part h1,
+#second_section h1,
+#third_sec_text_part h1,
+#fourth_sec_text_part h1,
+#fifth_section h1,
+#sixth_section h1 {
+    font-size: 45px;
+    line-height: normal;
+}
+
+#first_sec_text_part p,
+#third_sec_text_part p,
+#fourth_sec_text_part p,
+#sixth_sec_text_part p {
+    font-size: large;
+    line-height: 25px;
+}
+
+#first_sec_text_part a,
+#third_sec_text_part a,
+#fourth_sec_text_part a,
+#sixth_sec_text_part a {
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    background-color: #FF5959;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#third_sec_image_part img,
+#fourth_sec_image_part img {
+    width: 75%;
+}
+
+/* This style will apply to all 'p' tags */
+p {
+    text-align: justify;
+}
+
+/* first section style starting from here */
+#first_section {
+    width: 90%;
+    margin: 50px auto 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first_sec_parts {
+    width: 50%;
+}
+
+#first_sec_text_part h1 {
+    border-left: 4px solid #FF5959;
+    padding: 15px;
+}
+
+#first_sec_text_part h1,
+#first_sec_text_part h1 span {
+    font-family: 'Yeseva One', cursive;
+}
+
+#first_sec_text_part h1 span {
+    color: #FFAD5A;
+}
+
+#first_sec_image_part img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+}
+
+#first_sec_text_part p.scroll {
+    margin-top: 15px;
+}
+
+/* second section style starting from here */
+#second_section {
+    width: 100%;
+}
+
+#second_section h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 900;
+    color: #13103A;
+}
+
+#second_section h1 span {
+    color: #FFAD5A;
+}
+
+#second_section_main_part {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto 100px;
+}
+
+.mission_parts {
+    width: 30%;
+    border-radius: 15px;
+    padding: 3%;
+}
+
+.mission_parts img {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+.mission_parts h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#mission_part,
+#vision_part {
+    margin-right: 3%;
+}
+
+#mission_part {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+#vision_part {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+#goals_part {
+    background-color: rgb(255, 244, 214);
+}
+
+/* The style of third section is from here */
+#third_section {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 100px;
+    padding: 0 5%;
+    background-image: url(images/bg/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-y: 30%;
+}
+
+.third_sec_parts {
+    width: 50%;
+}
+
+/* fourth section styles from here*/
+#fourth_section {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5% 80px;
+    background-image: url(images/bg/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.fourth_sec_parts {
+    width: 50%;
+}
+
+#fourth_sec_image_part img {
+    display: block;
+    margin-left: auto;
+}
+
+/* Fifth section styles begin from here */
+#fifth_section {
+    width: 90%;
+    margin: 30px auto 100px;
+}
+
+#fifth_section h1 {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#fifth_section #skills {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#fifth_section #skills .skill {
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#fifth_section #skills .skill h4 {
+    margin-top: 20px;
+    color: #fff;
+}
+
+#fifth_section #skills #html {
+    background-color: rgb(154, 150, 217);
+}
+
+#fifth_section #skills #css {
+    background-color: rgb(255, 89, 89, 0.5);
+}
+
+#fifth_section #skills #js {
+    background-color: rgb(79, 157, 166, 0.5);
+}
+
+#fifth_section #skills .skill div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#fifth_section #skills .skill img {
+    width: 100px;
+    height: 100px;
+}
+
+#fifth_section #skills .skill h4 {
+    text-align: center;
+}
+
+/* sixth section styles */
+#sixth_section {
+    width: 90%;
+    margin: 0 5% 100px;
+
+}
+
+#sixth_section>h1 {
+    text-align: center;
+}
+
+#sixth_section>h1 span {
+    color: #FFAD5A;
+}
+
+#sixth_section_main_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sixth_sec_parts {
+    width: 50%;
+}
+
+#sixth_sec_image_part img {
+    background-image: url(images/bg/shape-3.png),
+        url(images/bg/shape-3.png),
+        url(images/bg/shape-3.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 80px, 60px, 60px;
+    background-position: top 0 left 0, bottom 0 left 0, bottom 50% right 0;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 50%;
+}
+
+#sixth_sec_text_part h1 span {
+    color: #FFAD5A;
+}
+
+/* footer styles are here */
+section#footer {
+    padding: 25px;
+    color: #fff;
+    background-color: #0B0D17;
+}
+
+section#footer h1,
+section#footer p {
+    text-align: center;
+}
+
+section#footer h1,
+section#footer h1 span {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+}
+
+section#footer h1 span {
+    color: #FF5959;
+}
